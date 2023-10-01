@@ -27,6 +27,7 @@
   .botoes {
     flex-direction: row;
     align-items: flex-end;
+    margin-top: 170px;
     width: 100%;
     padding: 30px;
   }
@@ -42,7 +43,7 @@
   }
 
   .conteudo {
-    top: -30%;
+    top: -25%;
   }
 
   .conteudo .logo {
@@ -61,5 +62,11 @@
 
   .botoes .botao img {
     max-width: 50px;
+  }
+}
+
+@media (max-width: 395px) {
+  .conteudo {
+    top: -20%;
   }
 }
