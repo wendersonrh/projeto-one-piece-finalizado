@@ -37,6 +37,12 @@
   }
 }
 
+@media (max-width: 720px) {
+  .botoes {
+    margin-top: 0px;
+  }
+}
+
 @media (max-width: 425px) {
   main .personagem .imagem {
     height: auto;
@@ -68,5 +74,9 @@
 @media (max-width: 395px) {
   .conteudo {
     top: -20%;
+  }
+
+  .botoes {
+    margin-top: 130px;
   }
 }
