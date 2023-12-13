@@ -61,6 +61,7 @@ main .personagem .imagem {
   border: none;
   cursor: pointer;
   border-radius: 50%;
+  transition: all 0.2s ease;
 }
 .botoes .botao img {
   border-radius: 50%;
